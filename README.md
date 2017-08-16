@@ -1,4 +1,4 @@
-# Firecase
+# FIRECASE
 Firebase에서 작동하는 UPPERCASE 포팅
 
 초기에 비용이 들지 않고, 서버사이드 코딩을 하지 않아도 된다는 점에서 매력적이라 할 수 있습니다.
@@ -12,3 +12,6 @@ Firebase에서 작동하는 UPPERCASE 포팅
 
 ## 할 수 없는 것
 - MMORPG: 대규모 실시간 통신을 할 수 없으므로 불가능합니다.
+
+## UPPERCASE에 비해 지원하지 않는 부분
+- History 지원 하지 않음

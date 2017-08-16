@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../FIRECASE/UPPERCASE-BOOT/R/BASE_STYLE.css">
+	</head>
+	<body>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+		<script>
+		'use strict';
+		firebase.initializeApp({
+			apiKey : 'AIzaSyDGaWhXGkv5hCfu4USra6O7IXR07j0HZr0',
+			authDomain : 'firecase-sample.firebaseapp.com',
+			databaseURL : 'https://firecase-sample.firebaseio.com',
+			projectId : 'firecase-sample',
+			storageBucket : 'firecase-sample.appspot.com',
+			messagingSenderId : '421986946345'
+		});
+		</script>
+		<script src="../FIRECASE/UPPERCASE-CORE/BROWSER.js"></script>
+		<script src="../FIRECASE/MODEL.js"></script>
+		<script>
+		'use strict';
+		RUN(() => {
+			
+			CONFIG.isDevMode = true;
+			
+			BOX('UPPERCASE');
+			BOX('TestBox');
+			
+			INIT_OBJECTS();
+		});
+		</script>
+		<script src="index.js"></script>
+	</body>
+</html>
