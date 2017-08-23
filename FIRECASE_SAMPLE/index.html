@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="../FIRECASE/UPPERCASE-BOOT/R/BASE_STYLE.css">
+		<link rel="stylesheet" href="../FIRECASE/UPPERCASE-BOOT/R/BASE_STYLE.MIN.css">
 	</head>
 	<body>
 		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
@@ -18,8 +18,9 @@
 			messagingSenderId : '421986946345'
 		});
 		</script>
-		<script src="../FIRECASE/UPPERCASE-CORE/BROWSER.js"></script>
+		<script src="../FIRECASE/UPPERCASE-CORE/BROWSER.MIN.js"></script>
 		<script src="../FIRECASE/MODEL.js"></script>
+		<!-- TestBox를 프로젝트의 BOX 이름으로 변경합니다. -->
 		<script>
 		'use strict';
 		RUN(() => {
@@ -30,8 +31,9 @@
 			BOX('TestBox');
 			
 			INIT_OBJECTS();
+			
+			TestBox.MAIN();
 		});
 		</script>
-		<script src="index.js"></script>
 	</body>
 </html>
