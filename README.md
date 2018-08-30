@@ -1,3 +1,5 @@
+***Firebase가 상당히 발전하여, Firebase를 그대로 쓰는 편이 간단하다고 판단되므로 이 프로젝트는 중단합니다.***
+
 # FIRECASE
 Firebase에서 작동하는 UPPERCASE 포팅
 
